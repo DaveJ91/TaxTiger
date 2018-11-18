@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TaxTiger</title>
+    <link rel="shortcut icon" href="images/tinytiger.png" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <h1 class="sidebar-title">Tax Tiger</h1>
+      <img src="images/bigtiger.png" alt="tiger icon" class="sidebar-logo">
+      <p class="sidebar-copy">A simple 2019 PAYE calculator for single Irish employees.</p>
+      <p class="attribution">Tiger Icon designed by Freepik from flaticon.com</p>
+    </div>
+
+    <div class="main-content">
+      <input type="text" id="salary-input" placeholder="Enter your salary here" maxlength="6">
+      <br>
+      <p id="salary-calculation"></p>
+
+      <table class="summary-table">
+      <tr>
+        <th>Summary</th>
+        <th>€</th>
+      <tr>
+        <td>Yearly Net Pay</td>
+        <td id="yearly-net">0</td>
+      </tr>
+      <tr>
+        <td>Monthly Net Pay</td>
+        <td id="monthly-net">0</td>
+      </tr>
+
+      <tr>
+        <td>Weekly Net Pay</td>
+        <td id="weekly-net">0</td>
+      </tr>
+      <tr>
+        <td>Effective Tax Rate</td>
+        <td id="effective-tax-rate">0</td>
+      </tr>
+
+
+    </table>
+
+      <table class="tax-table">
+      <tr>
+        <th>Tax, USC & PRSI</th>
+        <th>€</th>
+      <tr>
+        <td>Income Tax</td>
+        <td id="it-total">0</td>
+      </tr>
+      <tr>
+        <td>Tax Credits</td>
+        <td id="itcreds-total">0</td>
+      </tr>
+
+      <tr>
+        <td>USC</td>
+        <td id="usc-total">0</td>
+      </tr>
+      <tr>
+        <td>PRSI</td>
+        <td id="prsi-total">0</td>
+      </tr>
+
+
+    </table>
+
+    <p class="myattribution">Created by David O'Meara - https://github.com/DaveJ91</p>
+    </div>
+
+
+
+
+
+  </body>
+
+</html>

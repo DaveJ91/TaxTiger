@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+* {
+  font-family: 'Raleway';
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 180px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+button {
+  display: block;
+  height: 50px;
+  width: 180px;
+  margin: 20px;
+}
+
+body {
+  margin: 80px 150px 10px 150px;
+  align-items: center;
+  background-color: #F2F2F0;
+
+}
+.sidebar {
+  display: inline-block;
+  float: left;
+  background-color: #294A66;
+  width: 20%;
+  height: 500px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  position: relative
+  padding: 15px;
+}
+
+.sidebar-title {
+  color: #FFBA4C;
+  font-size: 40px;
+  font-family: 'Cabin Sketch';
+}
+
+
+.sidebar-logo {
+  height: 15%;
+  width: auto;
+
+}
+
+.main-content {
+  background-color: #FFBA4C;
+  height: 500px;
+  width: 80%;
+  display: inline-block;
+  border-radius: 10px;
+  float: right;
+  position: relative;
+
+}
+
+#salary-input {
+  border-radius:10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #294A66;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.attribution {
+  font-size: 8px;
+  position: absolute;
+  bottom: 80px;
+  padding: 10px;
+  color: white;
+}
+
+table {
+  border-style: solid;
+  border-width: thin;
+  border-color: #294A66;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+td, th {
+    border: 1px;
+
+
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+  width: 150px;
+}
+
+.summary-table {
+  float: left;
+  padding: 10px;
+  margin: 15px;
+}
+
+.tax-table {
+  float:right;
+  padding: 10px;
+  margin: 15px;
+}
+
+.myattribution {
+  position: absolute;
+  bottom: -5px;
+  right: 5px;
+  color: #294A66;
+}
